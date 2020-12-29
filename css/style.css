@@ -1,0 +1,151 @@
+body {
+    height: 5000px;
+    background-color: #f5f5f5;
+}
+#home {
+    height: 100vh;
+    background-image: url(../images/intro-bg.jpg);
+    background-size: 100% 100%;
+}
+#home .navbar {
+    z-index: 99999;
+}
+#home a {
+    color: #fff;
+    position: relative;
+}
+#home .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    top: 35px;
+    left: 10px;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+#home .nav-link:hover:after{
+    width: 25px;
+}
+
+#home .sec-home {
+    height: 700px;
+}
+#home .over-lay {
+    background-color: rgba(0, 0, 0, 0.5);
+ width: 100%;
+ height: 100%;
+}
+#about-me .shadow {
+    background-color: #fff;
+    box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);;
+}
+/* #about-me .about h2::after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 3px;
+    top: 40px;
+    left: 1px;
+    background-color: rgb(0, 120, 255);
+} */
+#about-me .about p {
+    font-size: 20px;
+}
+#services h3 {
+    font-size: 45px;
+    margin-top: 65px;
+}
+ .prag {
+    position: relative;
+}
+ /* .prag::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    top: 40px;
+    left: 540px;
+    background-color: rgb(0, 120, 255);
+} */
+#services .row>div .cont{
+    background-color: #fff;
+    border-radius: 25px;
+}
+    
+#services i {
+    line-height: 2.5;
+}
+.my-border {
+    width: 110px;
+    height: 110px;
+    box-shadow: 0 0 0 10px #0078ff;
+    transition: all 0.5s ease-in-out;
+    
+}
+#services .row .trans:hover .my-border  {
+    background-color: #0078ff;
+    color: #fff;
+    box-shadow: 0 0 0 10px rgba(0, 120, 255, 0.2);
+}
+
+#images {
+    background-image: url(../images/post-3.jpg);
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+}
+#images .rows {
+    background-color: rgba(0, 120, 255, 0.7);
+}
+#images .new-border {
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 0 0 10px #cde1f8;
+    font-size: 20px;
+    
+}
+#images .new-border i {
+    line-height: 3;
+}
+
+#protfolio .shadows {
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+#protfolio .shadows img {
+    transition: all 0.5s ease-in-out;
+}
+#protfolio i {
+    cursor: pointer;
+}
+#protfolio .shadows:hover img {
+    transform: scale(1.8);
+}
+
+.scrolling-active{
+    background-color: #fff !important;
+    box-shadow: 0 3px 1rem rgb(0, 0, 0,5);
+    position: relative;
+    transition: all 2s ease-in-out;
+
+}
+.scrolling-active .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    top: 35px;
+    left: 10px;
+    background-color: #000 !important;
+    transition: all 0.5s ease-in-out;
+}
+.scrolling-active nav a{
+    color: black !important;
+}
+
+#scroll {
+    background-color: transparent;
+    height: 70px;
+    width: 100%;
+    z-index: 999999;
+    
+}

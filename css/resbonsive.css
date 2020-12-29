@@ -1,0 +1,26 @@
+@media screen and (max-width:586px) {
+    #home h1 {
+        font-size: 40px;
+    }
+    #home span {
+        font-size: 30px;
+    }
+    #about-me .about {
+        margin-top: 5px;
+    }
+}
+@media screen and (min-width:587px) and (max-width:786px){
+    #home h1 {
+        font-size: 40px;
+    }
+    #home span {
+        font-size: 30px;
+    }
+  
+}
+@media screen and (min-width:787px) and (max-width:992px) {
+    
+}
+@media screen and  (min-width:992px) {
+    
+} 
